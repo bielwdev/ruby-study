@@ -11,21 +11,30 @@ Welcome to my Learning Ruby on Rails Learning repository! 🎓 This repository c
 ## 🚀 How to Get Started
 
 1. **Clone the Repository**:
+
     ```bash
     git clone https://github.com/bielwdev/ruby-study.git
+
     ```
+
 2. **Navigate to the Project Directory**:
+
     ```bash
     cd your-repository-name
     ```
+
 3. **Install Dependencies**:
+
     ```bash
     bundle install
     ```
+
 4. **Run the Rails Server**:
+
     ```bash
     rails server
     ```
+
 5. **Explore My Learning Journey**: Browse through the various exercises and assignments to see how I'm applying Ruby on Rails concepts.
 
 ## 🌟 Highlights
@@ -40,4 +49,3 @@ Have any questions, suggestions, or just want to discuss Rails? Reach out via [G
 Thank you for checking out my Ruby on Rails learning journey! 🚀
 
 ---
-
