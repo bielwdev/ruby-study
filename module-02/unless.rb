@@ -1,10 +1,10 @@
 # unless / a menos que
 
-puts "Digite um numero"
+puts "Enter a number"
 x = gets.chomp.to_i
 
 unless x >= 2
-  puts "x é menor que 2" 
+  puts "x is less than 2"
 else
-  puts "x é maior que 2"
+  puts "x is greater than or equal to 2"
 end
