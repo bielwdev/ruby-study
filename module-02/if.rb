@@ -1,10 +1,10 @@
-puts "Digite um numero"
+puts "Enter a number"
 x = gets.chomp.to_i
 
 if x > 2
-  puts "x é maior que 2" 
+  puts "x is greater than 2"
 elsif x == 2
-  puts "x é igual a 2" 
+  puts "x is equal to 2"
 else
-  puts "x é menor que 2"
+  puts "x is less than 2"
 end
