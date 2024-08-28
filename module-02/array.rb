@@ -42,6 +42,15 @@ end
 # "bmw"
 # "bugatti"
 
+v = ["hello", 62, 1.4, "1,4"]
+puts v.inspect
+
+v1 = [[11,12,13],[21,22,23],[31,32,33]]
+v1.each do |outer|
+  outer.each do |inner|
+    puts inner
+  end
+end
 
 ### Key Points:
 # - Indexing: Elements are accessed by their index, starting at 0.
