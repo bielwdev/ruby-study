@@ -7,6 +7,7 @@ name = "Gabriel"
 age = 22
 
 puts "My name is #{name} and I am #{age} years old."
+puts "I was born in #{2024 - age}"
 
 
 # Output
