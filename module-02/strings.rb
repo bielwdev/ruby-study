@@ -30,8 +30,14 @@ greeting = "Hello, #{name}!"  # Output: Hello, Alice!
 "hello".slice(1, 3)  # Output: "ell"
 
 # Concatenation: Use the `+` operator or `<<` to concatenate strings.
-"Hello, " + "world!"  # Output: "Hello, world!"
-"Hello, " << "world!" # Output: "Hello, world!"
+"Hello, " + "world!"  # Output: "Hello, world!" / create a new object on memory
+"Hello, " << "world!" # Output: "Hello, world!" / doesn't create a new object
+a = "Ruby "
+puts "a = " + "#{a.object_id}" # Has id 60
+b = a + "on Rails"
+puts "b = " + "#{b.object_id}" # Has a new id 80
+c = a << "on Rails"
+puts "c = " + "#{c.object_id}" # Has the same 60 id then "a"
 
 # Case Conversion: Methods like `upcase`, `downcase`, and `capitalize` change the case of the string.
 "hello".upcase       # Output: "HELLO"
