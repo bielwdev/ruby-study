@@ -12,7 +12,14 @@ Name = "Bob"
 puts name  # Output: Alice
 puts Name  # Output: Bob
 
+age = 10
+Age = 22
+
+puts age # Output: 10
+puts Age # Output: 22
+
 # In this example, `name` and `Name` are treated as two separate variables.
+# The same for the 'age' and 'Age'.
 
 ### Example 2: Methods
 
