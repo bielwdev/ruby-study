@@ -1,8 +1,8 @@
 ### Ruby is Case-Sensitive 
 
 # Ruby distinguishes between identifiers that differ only in case. 
-# This means that variables, methods, classes, and constants with the 
-# same name but different letter cases are considered distinct.
+# This means that variables, methods, classes, and constants with the same name 
+# but different letter cases are considered distinct.
 
 ### Example 1: Variables
 
