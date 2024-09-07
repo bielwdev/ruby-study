@@ -16,15 +16,21 @@ class Person
   def display_details
     puts "Name: #{@name}, Age: #{@age}"
   end
+
+  def birth_year
+    puts "#{@name} birth year is #{Time.now.getlocal("-03:00").year - @age}"
+  end
 end
 
 # Creating an object (instance of the Person class)
 person1 = Person.new("John", 30)   # John is an object of class Person
 person1.display_details            # Outputs: Name: John, Age: 30
+person1.birth_year
 
 # Another object
 person2 = Person.new("Jane", 25)
 person2.display_details            # Outputs: Name: Jane, Age: 25
+person2.birth_year
 
 # Explanation:
 # - Classes define properties and behaviors of objects.
