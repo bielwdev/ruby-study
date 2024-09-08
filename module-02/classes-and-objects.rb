@@ -7,14 +7,15 @@
 class Person
   # The initialize method is a constructor that gets called when a new object 
   # is created
-  def initialize(name, age)
+  def initialize(name, age, gender = "uninformed")
     @name = name    # Instance variable for name
     @age = age      # Instance variable for age
+    @gender = gender
   end
 
   # Method to display person details
   def display_details
-    puts "Name: #{@name}, Age: #{@age}"
+    puts "Name: #{@name}, Age: #{@age}, Gender: #{@gender}"
   end
 
   def birth_year
@@ -28,7 +29,7 @@ person1.display_details            # Outputs: Name: John, Age: 30
 person1.birth_year
 
 # Another object
-person2 = Person.new("Jane", 25)
+person2 = Person.new("Jane", 25, "Female")
 person2.display_details            # Outputs: Name: Jane, Age: 25
 person2.birth_year
 
