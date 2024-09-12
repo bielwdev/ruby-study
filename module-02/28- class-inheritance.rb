@@ -29,7 +29,7 @@ class LegalEntity < Person
   # The pay_supplier method prints a message indicating the supplier is 
   # being paid.
   def pay_supplier
-    puts "Paying supplier..."
+    "Paying supplier..."
   end
 end
 
