@@ -20,7 +20,7 @@ Welcome to my Learning Ruby on Rails Learning repository! 🎓 This repository c
 2. **Navigate to the Project Directory**:
 
     ```bash
-    cd your-repository-name
+    cd ruby-study
     ```
 
 3. **Install Dependencies**:
