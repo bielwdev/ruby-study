@@ -82,3 +82,50 @@ puts "You chose #{answer}"
 ## Gems are a core part of Ruby's flexibility. By incorporating the right 
 # gems, you can add robust functionality to your applications with minimal 
 # effort.
+
+#### 5. **Devise**
+# Devise is one of the most popular Ruby gems for authentication in Rails 
+# applications. It provides a flexible solution for handling user sign-up, 
+# login, password management, and many other authentication-related tasks. 
+# Devise supports various authentication features out of the box, including 
+# password recovery, email confirmation, and account locking.
+
+## GitHub repository:
+# https://github.com/heartcombo/devise
+
+## Example Usage:
+# First, add Devise to your Gemfile in a Rails project:
+gem 'devise'
+
+# Run bundle install to install the gem:
+bundle install
+
+# Next, generate Devise configuration:
+rails generate devise:install
+
+# Generate Devise views (optional, for customizing user interface):
+rails generate devise:views
+
+# Set up a User model for authentication:
+rails generate devise User
+
+# Run migrations to update the database:
+rails db:migrate
+
+# Now you have a fully functional User model with Devise authentication.
+# Users can sign up, log in, recover passwords, etc.
+
+#### Additional Information for Beginners
+## Devise is highly customizable and can be extended with various modules such 
+# as:
+
+## Confirmable: Sends emails with confirmation instructions and verifies if an 
+# account is confirmed during sign-in.
+
+## Lockable: Locks an account after a specified number of failed sign-in 
+# attempts.
+
+## With Devise, you can build secure user authentication quickly, saving 
+# significant development time. It is highly recommended for any project 
+# requiring user login and authentication.
+
