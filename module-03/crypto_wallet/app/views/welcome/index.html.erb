@@ -2,11 +2,7 @@
 <p> <strong> Date: </strong> <%= br_date(Date.today) %> </p>
 <p> <%= aplication_name %> </p>
 
-<ul>
-  <li>
-    <%= link_to "Coin Registration", coins_path %>
-  </li>
-</ul>
+<%= render "menu" %>
 
 <p>
   Hello <strong><%= @my_name %></strong>! You are in <strong> <%= environment_rails %></strong> environment 
