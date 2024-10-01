@@ -1,6 +1,6 @@
 class WelcomeController < ApplicationController
   def index
-    @name = "Gabriel"
-    @course = "Ruby on Rails"
+    @my_name = params[:name]
+    @my_course = params[:course]
   end
 end
