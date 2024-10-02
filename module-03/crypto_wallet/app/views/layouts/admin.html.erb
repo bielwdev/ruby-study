@@ -10,13 +10,17 @@
   </head>
 
   <body>
-    <strong>
+    <strong style="text-align: center">
       <p>Restricted Admin Area</p>
     </strong>
     <%= yield %>
+    
   </body>
 
   <footer style="text-align: center; padding: 20px; position: fixed; width: 100%; bottom: 0;">
+    <strong>
+      <p>Restricted Admin Area</p>
+    </strong>
     <p>Developed by 
       <%= link_to '@bielwdev', 'https://github.com/bielwdev', target: '_blank', rel: 'noopener noreferrer', style: 'color: #007bff; text-decoration: none;' %>
     </p>
